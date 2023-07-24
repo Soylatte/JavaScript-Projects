@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Youtube Mobile</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header>
@@ -19,10 +20,27 @@
 
 
         <section class="player">
-            <video src=""
+            <video controls src="video/video.mp4"></video>
         </section>
     
-        <section class="info"></section>
+        <section class="info">
+            <div class="metadata">
+                <ul class="hastags">
+                    <li>#vlog</li>
+                    <li>#dailyvlog</li>
+                    <li>#Barcelona</li>
+                </ul>
+                <div class="titleAndButton">
+                    <span class="title">
+                        Barcelona Vlog
+                    </span>
+                    <button class="moreBtn"><i class="fa-solid fa-caret-down"></i></button>
+                </div>
+                <div class="views"></div>
+            </div>
+            <actions></actions>
+            <div class="channel"></div>
+        </section>
         <section class="UpNext"></section>
     </body>
 </html>
