@@ -30,3 +30,18 @@ function solution (num1, num2) {
 //1.두 수가 같은지 비교
 //2. 비교 결과에 따라 1, -1
 
+
+//3. 분수의 덧셈
+
+function solution(denum1, num1, denum2 , num2) {
+    var answer = [];
+    const denum = denum1 * num2 + denum2 * num1;
+    const num = num1 * num2;
+
+    return answer;
+}
+
+//1. 분모 덧셈
+//2.분자분모의 최대공약수로 나눠줌
+
+
